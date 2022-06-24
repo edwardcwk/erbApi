@@ -17,11 +17,11 @@ var app = express();
 //====for mysql  
 var mysql = require('mysql');
 var con = mysql.createConnection({
-  host: "localhost",
+  host: "erb-homewor-7967.mysql.a.osc-fr1.scalingo-dbs.com",
 
-  user: "root",
-  //password: "12345678",port: 3306
-  password: "root",port: 10005
+  user: "erb_homewor_7967",
+  //password: "erb_homewor_7967",port: 3306
+  password: "ZVJs5lp7O2f_Ce3sA5n4",port: 33309
 
 
 });
