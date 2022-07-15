@@ -11,6 +11,7 @@ var apiRouter = require('./routes/api');
 var messageRouter = require('./routes/message'); 
 var messagepriorityRouter = require('./routes/messagepriority');
 
+
 var app = express();
 //app.use(session({secret:'edward is the best'}));
 
